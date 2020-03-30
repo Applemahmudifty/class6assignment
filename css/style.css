@@ -1,0 +1,271 @@
+body {
+	background-color: #f6f9f9;
+}
+header{
+	width: 100%;
+	float: left;
+}
+.logo{
+	padding: 30px 0px;
+}
+.section1{
+	width: 100%;
+	float: left;
+	background: url(../img/banner.png) no-repeat;
+	background-size: cover;
+}
+.devider{
+	width: 60%;
+	border-bottom: 2px solid #15a4fa;
+	display: block;
+	margin: 10px auto;
+}
+.section1a{
+	text-align: center;
+}
+.section1a h1{
+	margin: 220px auto 20px;
+	font-size: 120px;
+	font-weight: 300;
+	color: #ffffff;
+}
+.section1a p{
+	font-size: 20px;
+	margin: 30px auto;
+	color: #ffffff;
+}
+.section1a button{
+	background: transparent;
+	padding: 17px 40px;
+	color: #ffffff;
+	font-size: 18px;
+	border-color: #15a4fa;
+	margin: 35px auto 90px;
+}
+.section1a i{
+	width: 100%;
+	margin: 85px auto;
+	color: #ffffff;
+	font-size: larger;
+}
+.section2{
+	width: 100%;
+	float: left;
+	background-color: #f0f3f3;
+	text-align: center;
+}
+.section2a h1{
+	font-size: 40px;
+	margin: 80px auto 20px;
+	font-weight: 500;
+	color: #2d3950;
+}
+.section2a p{
+	font-size: 20px;
+	margin: 15px auto 110px;
+	color: #999999;
+	line-height: 30px;
+}
+.section3parent {
+	width: 100%;
+	float: left;
+	background-color: #f6f9f9;
+}
+.section3child1{
+	width: 33.33%;
+	float: left;
+	text-align: center;
+}
+.section3child2{
+	width: 33.33%;
+	float: left;
+	text-align: center;
+}
+.section3child3{
+	width: 33.33%;
+	float: left;
+	text-align: center;
+}
+.fa.fa-mobile{
+	background-color: #48baff;
+    font-size: 55px;
+    color: white;
+    padding: 11px 25px;
+    margin: 60px auto 13px;
+}
+.fa.fa-paper-plane-o{
+	background-color: #48baff;
+    font-size: 40px;
+    color: white;
+    padding: 15px 15px;
+    margin: 60px auto 20px;
+}
+.fa.fa-bullhorn {
+	background-color: #48baff;
+    font-size: 40px;
+    color: white;
+    padding: 15px 15px;
+    margin: 60px auto 20px;
+}
+.childh2{
+	margin: 10px auto;
+	font-size: 22px;
+	font-weight: 300;
+}
+.childp{
+	font-size: 15px;
+	margin: 15px auto 65px;
+	padding: 0px 46px;
+	color: #999999;
+	line-height: 20px;
+}
+.section4{
+	width: 100%;
+	float: left;
+	background-color: #f0f3f3;
+}
+.section4child1{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.section4child1 h1{
+	font-size: 41px;
+	margin: 65px auto 15px;
+	font-weight: 300;
+}
+.section4child1 p{
+	font-size: 15px;
+	margin: 10px auto 45px;
+	font-weight: 300;
+	color: #999999;
+}
+.section4child2{
+	width: 100%;
+	float: left;
+	text-align: center;
+	margin: 20px auto 70px;
+}
+.sixpictures{
+	width: 33.33%;
+	float: left;
+	margin: 8px auto;
+}
+.section5{
+	width: 100%;
+	float: left;
+	background: url(../img/form-bg.png) no-repeat;
+	background-size: cover;
+}
+.bgcolor{
+	background-color: #2d3950a8;
+}
+.texttext{
+	  text-align: center;
+    padding: 80px 0px 20px;
+}
+.texttext h1{
+	color: white;
+}
+.texttext p{
+	color: #999999;
+}
+.form ul{
+	margin-bottom: 0px;
+}
+.form-12{
+	background: transparent;
+	border:1px solid #15a4fa;
+	width: 50%;
+	display: block;
+	padding: 10px;
+	margin:10px auto;
+	color: #999999;
+}
+textarea{
+	background: transparent;
+	border:1px solid #15a4fa;
+	width: 50%;
+	display: block;
+	padding: 10px;
+	margin: 10px auto;
+	color: #999999;
+	height: 250px;
+}
+.checkbox{
+	margin: 0px 0px 14px 22px;
+}
+label{
+	color: #999999;
+}
+.btn-form{
+	background: transparent;
+    padding: 5px 28px;
+    color: #ffffff;
+    font-size: 15px;
+    border:1px solid #15a4fa;
+    margin: 0px 0px 50px -8px;
+}
+.footer{
+	width: 100%;
+	float: left;
+}
+.copyright{
+	width: 49%%;
+	font-size: 15px;
+	color: #999999;
+	padding: 20px;
+	float: left;
+	margin: 0px 97px;
+}
+.icons{
+	width: 49%;
+	float: right;
+	margin:0px -63px 0px 0px;
+	text-align: center;
+}
+.icons ul{
+	list-style: none;
+	padding: 20px;
+}
+.icons ul li{
+	display: inline;
+	border-radius: 10px 10px;
+	padding: 10px;
+	color: white;
+	background-color: #15a4fa;
+}
+
+
+@media (min-width: 0px) and (max-width: 500px){
+	.section2a p{
+		font-size: 15px;
+	}
+	.childh2{
+		font-size: 17px;
+	}
+	.childp{
+		font-size: 10px;
+	}
+	.sixpictures{
+		display: block;
+		width: 100%;
+	}
+	.btn-form{
+		margin: 0px 0px 50px 172px;
+	}
+	.copyright{
+		width: 67%;
+		display: block;
+		text-align: center;
+	}
+	.icons{
+		width: 67%;
+		display: block;
+		text-align: center;
+		margin: 0px 55px 0px 0px
+	}
+	.checkbox {
+    margin: 0px 0px 14px 47px;
+	}
+}
